@@ -1,0 +1,3 @@
+1	Bugatti_Chiron	2018	8	2998000
+2	DeLorean_DMC-12	1982	2.85	29825
+3	Maserati_GranTur.	2015	4.2	135000
