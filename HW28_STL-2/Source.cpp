@@ -27,20 +27,16 @@ int main()
 	bool yesOrNo = 0;
 	int choice = 0;
 
-	//carDealership.addNewCar("Bugatti Chiron", 2018, 8.0, 2998000.0);
-	//carDealership.addNewCar("DeLorean DMC-12", 1982, 2.85, 29825.0);
-	//carDealership.addNewCar("Maserati GranTur.", 2015, 4.2, 135000.0);
-
 	while (prIsRunning)
 	{
 		cout << "------------MENU------------\n"
-			<< "| 1 - add new car,        |\n"	// +
-			<< "| 2 - delete car,         |\n"	// +
-			<< "| 3 - show all cars,      |\n"	// +
-			<< "| 4 - find cars,          |\n"	// +
-			<< "| 5 - sort cars,          |\n"	// +
+			<< "| 1 - add new car,        |\n"	
+			<< "| 2 - delete car,         |\n"	
+			<< "| 3 - show all cars,      |\n"	
+			<< "| 4 - find cars,          |\n"	
+			<< "| 5 - sort cars,          |\n"	
 			<< "|-------------------------|\n"
-			<< "| 0 - exit.               |\n"	// +
+			<< "| 0 - exit.               |\n"	
 			<< "---------------------------\n";
 		cout << "| ---> ";
 		choice = correctIntegerInput();
